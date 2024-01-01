@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>South Indian Cuisine Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to South Indian Delights</h1>
+            <p>Experience the authentic flavors of Idli and Vada</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to our South Indian Cuisine Hotel! We take pride in offering an authentic culinary experience, bringing the flavors of South India to your table. Our chefs are experts in crafting traditional dishes such as idli, vada, dosa, sambar, and many more.</p>
+            <p>At our restaurant, we use the finest ingredients and follow traditional recipes to ensure every dish reflects the true essence of South Indian cuisine. Whether you're a connoisseur of South Indian food or exploring it for the first time, our menu has something special for everyone.</p>
+            <p>Experience the rich blend of spices, aromas, and tastes that define the beauty of South Indian cooking. Join us on a culinary journey and indulge in the delightful flavors of our region.</p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for reservations, inquiries, or any assistance:</p>
+            <div class="contact-info">
+                <p><strong>Address:</strong> #123 ,South Indian Cuisine,,Bengaluru 560061</p>
+                <p><strong>Phone:</strong> +91 9854625145</p>
+                <p><strong>Email:</strong> info@southindiancuisine.in</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="menu" class="dark-background">
+        <div class="container">
+            <h2>Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="idli1.jpg" alt="Idli">
+                    <h3>Idli</h3>
+                    <p>Soft and fluffy</p>
+                    <p class="price">Price: ₹50</p>
+                </div>
+                <div class="menu-item">
+                    <img src="vada.jpg" alt="Vada">
+                    <h3>Vada</h3>
+                    <p>Crispy Medu Vadas</p>
+                    <p class="price">Price: ₹40</p>
+                </div>
+                <div class="menu-item">
+                    <img src="dosa.jpg" alt="Dosa">
+                    <h3>Dosa</h3>
+                    <p>Thin crispy crepe pan cake</p>
+                    <p class="price">Price: ₹70</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 South Indian Cuisine Hotel</p>
+    </footer>
+</body>
+
+</html>
 
